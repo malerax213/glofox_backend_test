@@ -1,7 +1,6 @@
 package com.tui.proof.model;
 
 import lombok.Data;
-import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -12,7 +11,6 @@ public class PilotesOrder {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@GenericGenerator(name="system-uuid", strategy = "uuid")
     public Integer number;
     public int pilotes;
     public double orderTotal;

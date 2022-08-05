@@ -1,6 +1,5 @@
 package com.tui.proof.service;
 
-import com.tui.proof.model.Client;
 import com.tui.proof.model.PilotesOrder;
 
 import java.util.List;
